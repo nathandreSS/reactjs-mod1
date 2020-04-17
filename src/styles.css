@@ -26,6 +26,8 @@ button {
   background: #7159c1;
   color: #fff;
   border: 0;
+  border-radius: 60px;
+  outline: none;
   padding: 10px 15px;
   cursor: pointer;
   margin-top: 15px;
@@ -33,7 +35,32 @@ button {
   font-size: 14px;
 }
 
-div li button {
+.deleteButton {
   margin: 0 15px;
   background: #ca4949;
+}
+
+.likeButton {
+  margin: 0 15px;
+  background: #7159c1;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+#form > input {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+#form > button {
+  margin-bottom: 10px; 
+}
+
+li > div {
+  width: 60px;
+  margin-left: 10px;
 }
